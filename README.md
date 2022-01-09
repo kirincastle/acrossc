@@ -1,4 +1,4 @@
-# acrosscfq
+# acrossc
 
 To solve the issue of QuanX ping issue
 
