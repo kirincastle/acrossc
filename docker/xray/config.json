@@ -1,0 +1,34 @@
+{
+  "inbounds": [{
+    "port": 57427,
+    "listen": "127.0.0.1",
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+            {
+                "id": "945c615b-8e23-4f7b-88cc-43cf878ca227",
+                "level": 0
+            }
+        ],
+        "decryption": "none"
+    },
+    "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+            "path": "/ba07ed31-b802-4172-bb6c-1e4f8592ffa6",
+            "headers": {
+                "Host": "abc.abc.com"
+            }
+        }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  },{
+    "protocol": "blackhole",
+    "settings": {},
+    "tag": "blocked"
+  }]
+}
